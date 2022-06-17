@@ -1,0 +1,34 @@
+[debug] [2022-06-17T15:59:13.059Z] ----------------------------------------------------------------------
+[debug] [2022-06-17T15:59:13.062Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-17T15:59:13.063Z] CLI Version:   11.1.0
+[debug] [2022-06-17T15:59:13.063Z] Platform:      win32
+[debug] [2022-06-17T15:59:13.063Z] Node Version:  v16.13.1
+[debug] [2022-06-17T15:59:13.065Z] Time:          Fri Jun 17 2022 21:59:13 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-06-17T15:59:13.065Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-17T15:59:13.175Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-17T15:59:13.176Z] > authorizing via signed-in user (mrishafayet003@gmail.com)
+[debug] [2022-06-17T15:59:13.176Z] [iam] checking project doctors-portal-64105 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-17T15:59:13.180Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-64105:testIamPermissions [none]
+[debug] [2022-06-17T15:59:13.180Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-64105:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-17T16:01:05.431Z] ----------------------------------------------------------------------
+[debug] [2022-06-17T16:01:05.434Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-06-17T16:01:05.435Z] CLI Version:   11.1.0
+[debug] [2022-06-17T16:01:05.435Z] Platform:      win32
+[debug] [2022-06-17T16:01:05.435Z] Node Version:  v16.13.1
+[debug] [2022-06-17T16:01:05.437Z] Time:          Fri Jun 17 2022 22:01:05 GMT+0600 (Bangladesh Standard Time)
+[debug] [2022-06-17T16:01:05.437Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-06-17T16:01:05.549Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-06-17T16:01:05.550Z] > authorizing via signed-in user (mrishafayet003@gmail.com)
+[debug] [2022-06-17T16:01:05.550Z] [iam] checking project doctors-portal-64105 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-06-17T16:01:05.554Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-64105:testIamPermissions [none]
+[debug] [2022-06-17T16:01:05.555Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-64105:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-06-17T16:01:24.959Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/doctors-portal-64105:testIamPermissions
+[debug] [2022-06-17T16:01:24.961Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/doctors-portal-64105 [none]
+[debug] [2022-06-17T16:01:54.967Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/doctors-portal-64105
+[debug] [2022-06-17T16:01:54.977Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/doctors-portal-64105
+    at RetryOperation._fn (C:\Users\USER\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:237:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project doctors-portal-64105. Please make sure the project exists and your account has permission to access it.
